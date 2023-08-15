@@ -279,38 +279,41 @@ common_single_words = [
     "testing",
     "automation",
     "ci/cd",
-    "ux/ui"
+    "ux/ui",
+    "C",
+    "C++",
     # ... (add more words as needed)
 ]
 
 all_skills = common_single_words + additional_skills
 
 filtered_skills = [skill for skill in all_skills if skill in
-                   [
-    "java", "python", "javascript", "html", "css", "sql", "nosql",
-    "c++", "c#", "c", "typescript", "php", "ruby", "swift", "kotlin",
-    "react", "angular", "vue", "django", "spring", "laravel",
-    "express", "node", "mongodb", "mysql", "postgresql", "redis",
-    "graphql", "aws", "azure", "docker", "kubernetes", "jenkins",
-    "ansible", "terraform", "git", "svn",
-    "go", "rust", "scala", "perl", "r", "julia", "dart", "lua", "haskell",
-    "rails", "clojure", "groovy",
-    "bash", "powershell",
-    "couchbase", "cassandra", "neo4j", "orientdb", "firebase",
-    "dynamodb", "sqlite", "mariadb",
-    "flask", "ember", "knockout", "symfony", "codeigniter", "aspnet",
-    "play", "phoenix", "qt",
-    "hadoop", "spark",
-    "gcp", "ibmcloud", "digitalocean", "heroku",
-    "alibabacloud", "oraclecloud", "vmwarecloud", "openshift",
-    "pcf",
-    "openshift", "nomad", "mesos", "openstack",
-    "circleci", "gitlab", "travisci", "bitbucket",
-    "bamboo", "teamcity", "spinnaker",
-    "chef", "puppet", "saltstack", "packer",
-    "mercurial", "bazaar", "fossil",
-    "backbone", "aurelia", "svelte", "polymer",
-    "blazor", "gatsby", "nextjs", "nuxt",
-    "cobol", "fortran", "lisp", "ada", "prolog", "scheme", "smalltalk",
-    "forth", "erlang", "elixir", "racket", "perl6"
-]]
+    [
+        "node.js", "NodeJS","java", "python", "javascript", "html", "css", "sql", "nosql",
+        "C++", "c+","c#", "C", "C/C++",".net", "typescript", "php", "ruby", "swift", "kotlin",
+        "react", "angular", "vue", "django", "spring", "laravel",
+        "express", "node", "mongodb", "mysql", "postgresql", "redis", "postgres"
+        "graphql", "aws", "azure", "docker", "kubernetes", "jenkins",
+        "ansible", "terraform", "git", "svn",
+        "go", "rust", "scala", "perl", "r", "julia", "dart", "lua", "haskell",
+        "rails", "clojure", "groovy",
+        "bash", "powershell",
+        "couchbase", "cassandra", "neo4j", "orientdb", "firebase",
+        "dynamodb", "sqlite", "mariadb",
+        "flask", "ember", "knockout", "symfony", "codeigniter", "aspnet",
+        "play", "phoenix", "qt",
+        "hadoop", "spark",
+        "gcp", "ibmcloud", "digitalocean", "heroku",
+        "alibabacloud", "oraclecloud", "vmwarecloud", "openshift",
+        "pcf","RESTful", "Nexus", "Gradle", "Maven", "Solr", "Elasticsearch", ""
+        "openshift", "nomad", "mesos", "openstack",
+        "circleci", "gitlab", "travisci", "bitbucket",
+        "bamboo", "teamcity", "spinnaker",
+        "chef", "puppet", "saltstack", "packer",
+        "mercurial", "bazaar", "fossil",
+        "backbone", "aurelia", "svelte", "polymer",
+        "blazor", "gatsby", "nextjs", "nuxt",
+        "cobol", "fortran", "lisp", "ada", "prolog", "scheme", "smalltalk",
+        "forth", "erlang", "elixir", "racket", "perl6", "linux", "github", "restapi",
+        "perforce", "jQuery", "AJAX", "JSON", "AngularJS", "bootstrap", "Unix",
+    ]]
